@@ -369,7 +369,8 @@ const bcrypt = require('bcrypt');
 const app = express();
 
 // Middleware
-app.use(cors()); // React frontenddan so‘rovlarni qabul qilish uchun
+app.use(cors({ origin: 'https://persons-react.vercel.app' }));
+
 app.use(express.json()); // JSON so‘rovlarni parse qilish uchun
 
 // Neon Postgres ulanishi
