@@ -1,0 +1,33 @@
+# Node.js modullari
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Muhit fayllari
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE va tizim fayllari
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Vercel va build fayllari
+.vercel/
+.vercel_cache/
+.next/
+dist/
+out/
+
+# Temp va kesh fayllar
+tmp/
+cache/
+logs/
+*.bak
